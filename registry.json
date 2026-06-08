@@ -1,0 +1,28 @@
+{
+  "$schema": "./registry.schema.json",
+  "name": "pi",
+  "homepage": "https://github.com/boadij/pi",
+  "description": "Small Pi Coding Agent extensions and skills with narrow responsibilities.",
+  "items": [
+    {
+      "name": "pi-downshift",
+      "displayName": "Downshift",
+      "type": "extension",
+      "repo": "https://github.com/boadij/pi-downshift",
+      "install": "pi install npm:pi-downshift",
+      "category": "cost-control",
+      "summary": "Starts strong, preserves context, then switches to a cheaper model when context pressure crosses a threshold.",
+      "status": "active"
+    },
+    {
+      "name": "pi-killswitch",
+      "displayName": "Killswitch",
+      "type": "extension",
+      "repo": "https://github.com/boadij/pi-killswitch",
+      "install": "pi install pi-killswitch",
+      "category": "run-control",
+      "summary": "Requests wrap-up or kills a run when context-budget thresholds are reached.",
+      "status": "active"
+    }
+  ]
+}
